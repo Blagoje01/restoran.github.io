@@ -1,0 +1,24 @@
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+
+    @include mediaQ(tab-port) {
+      height: 2.4rem;
+    }
+    @include mediaQ(phone) {
+      height: 1.2rem;
+    }
+  }
+}
+.featured-in-header {
+  color: #888;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}

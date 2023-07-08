@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/base";
+@import "base/typography";
+@import "base/animations";
+@import "base/utilities";
+@import "base/grid";
+
+@import "layout/haeder";
+@import "layout/navigation";
+@import "layout/footer";
+
+@import "components/container";
+@import "components/btn";
+@import "components/delivered";
+@import "components/logos";
+@import "components/col";
+@import "components/meal";
+@import "components/testimonials";
+@import "components/cards";
+@import "components/cta";
+
+@import "pages/home";

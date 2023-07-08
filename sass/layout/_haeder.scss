@@ -1,0 +1,13 @@
+.header {
+  height: 9.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8rem;
+  margin: 0 auto;
+  background-color: $background-secondary-color;
+
+  &__logo img {
+    height: 2.2rem;
+  }
+}

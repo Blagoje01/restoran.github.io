@@ -1,0 +1,29 @@
+.delivered {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  @include mediaQ(tab-port) {
+    justify-content: center;
+  }
+  &__photos {
+    display: flex;
+  }
+  &__photos img {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    border: 3px solid $background-secondary-color;
+    &:not(:first-child) {
+      margin-left: -1.6rem;
+    }
+  }
+  &__text {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  &__span {
+    color: $orange-btn-color;
+    margin-right: 1.2rem;
+  }
+}
